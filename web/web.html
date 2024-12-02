@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no" />
+		<link href="../images/favicon.ico" rel="icon" />
+		<title>Documentation | Elite Quiz</title>
+
+		<!-- Bootstrap -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="../assets/vendor/bootstrap/css/bootstrap.min.css" />
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" />
+		<!-- Custom Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/stylesheet.css" />
+	</head>
+
+	<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+		<!-- Document Wrapper
+        =============================== -->
+		<div id="main-wrapper">
+			<!-- Header
+            ============================ -->
+			<header id="header" class="sticky-top">
+				<!-- Navbar -->
+				<nav class="primary-menu navbar navbar-expand-lg bg-dark navbar-dropdown-dark">
+					<div class="container-fluid">
+						<!-- Sidebar Toggler -->
+						<button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button">
+							<span></span><span class="w-75"></span><span></span>
+						</button>
+						<!-- Logo -->
+						<img src="../images/logo.svg" width="200" alt="logo" />
+						<!-- Logo End -->
+					</div>
+				</nav>
+				<!-- Navbar End -->
+			</header>
+			<!-- Header End -->
+
+			<!-- Content
+            ============================ -->
+			<div id="content" role="main">
+				<!-- Sidebar Navigation
+                ============================ -->
+				<div class="idocs-navigation bg-dark docs-navigation-dark">
+					<ul class="nav flex-column">
+						<li class="nav-item">
+							<a href="#introduction" class="nav-link active">Introduction</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="#quiz_web_app" class="nav-link">Elite Quiz Web</a>
+							<ul class="nav flex-column">
+								<li class="nav-item">
+									<a class="nav-link" href="#webinstallation">Installation of Web Setup Video</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#howToSetupWebVersion">How to setup Web Version</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#WhereToSetDomainURL">Where to Set API URL</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howToRunWebProject">How to run Web project</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howToIntegrateFirebase">How to integrate firebase</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howToEnableFirebaseAuth"
+										>How to enable firebase auth</a
+									>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howToEnableCloudFirestore"
+										>How to enable cloud firestore</a
+									>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howToChangeAppName">How to change application name</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howToChangeAppLogo">How to change application Logo</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howToSetDefaultLanguage"
+										>How to set default language</a
+									>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howToAddLanguage"
+										>Manage App Languages (Translations) from Admin Panel</a
+									>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#manageQuizLanguage"
+										>Manage Quiz Language from Admin Panel</a
+									>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howToChangeAppColors"
+										>How to change application colors</a
+									>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howToChangeAppFont">How to change application font</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howToAddSlider">How to add Slider</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howToAddBadgesImages">How to add Badges Images</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howToChangeLtrToRtl">How to Change LTR to RTL</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howToChangeIntroSlideImages">How to set Domain URL</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howToChangeSitemap">How to Configure Sitemap</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#howToGenerateReleaseApk">How to deploy the Site</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howToChangeTimerSeconds"
+										>How to Change Timer Seconds</a
+									>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howTodisabledhomesection"
+										>How to disable home section</a
+									>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#howToAddScore">How to Add Score</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#howToAddAdSense">How to Add Google AdSense</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item"><a href="#support" class="nav-link">Support</a></li>
+						<li class="nav-item"><a href="#rating" class="nav-link">Your Feedback</a></li>
+						<li class="nav-item"><a href="#contactus" class="nav-link">Contact Us</a></li>
+						<li class="nav-item">
+							<a class="nav-link" href="#common_errors">Common Error</a>
+							<ul class="nav flex-column">
+								<li class="nav-item"><a class="nav-link" href="#admin_error">Admin Panel</a></li>
+								<!-- <li class="nav-item"><a class="nav-link" href="#web_error">Web Issue</a></li> -->
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Docs Content  -->
+				<div class="idocs-content">
+					<div class="container">
+						<!-- Getting Started -->
+						<section id="introduction">
+							<h3>
+								Note:- The web-based payment gateway is currently unavailable for security reasons
+								or due to the Google In-App purchase system. However, you can purchase coins
+								directly from the app, and these purchases will also be reflected on the web
+								platform.
+							</h3>
+							<h3>Introduction</h3>
+							<p class="">
+								Thank you for purchasing code. It really means a lot and It's our pleasure to serve
+								top-notch service to you. Thank you so much for choosing<a
+									href="https://wrteam.in/"
+									style="color: #3c55d1"
+									target="_blank">
+									WRTeam </a
+								>. If you have trouble with the code and documentation please contact to our Support
+								Team <a href="#support" style="color: #3c55d1">Here</a>
+							</p>
+						</section>
+
+						<section id="quiz_web_app">
+							<ol>
+								<section id="webinstallation">
+									<h2>Installation of Web Setup Video</h2>
+									<ol>
+										<!-- <li>
+                                        Configure In PC : <a href="https://www.youtube.com/watch?v=LRV5ZMxJhuc">Video Link</a>
+                                    </li> -->
+										<li>
+											Configure of firebase :
+											<a href="https://www.youtube.com/watch?v=adrnST-IrgU">Video Link</a>
+										</li>
+										<!-- <li>
+                                        Upload To Server Example : <a href="https://www.youtube.com/watch?v=v1tbGtrndgI">Video Link</a>
+                                    </li> -->
+									</ol>
+								</section>
+								<br />
+
+								<section id="howToSetupWebVersion">
+									<h4>
+										<li>How to setup Web Version</li>
+									</h4>
+
+									<div class="info">
+										<span class="info-icon"
+											><i class="fas fa-info-circle" style="color: #74c0fc"></i
+										></span>
+										<p class="mb-0">
+											You must install version 18 or later. You can follow the documentation which
+											suits your device.
+										</p>
+									</div>
+
+									<div class="tip_box">
+										<div class="main_title">
+											<span class="warning_icon"><i class="fas fa-lightbulb"></i> TIP</span>
+											<h6>Recommended link is here -</h6>
+										</div>
+										<span>
+											<a
+												href="https://nodejs.org/en/download"
+												target="_blank"
+												rel="noopener noreferrer"
+												>Download Node Js</a
+											></span
+										>
+										<span>
+											<a
+												href="https://www.wrteam.in/blog/step-by-step-guide-to-install-nodejs-on-windows-mac/"
+												target="_blank"
+												rel="noopener noreferrer"
+												>Steps for Install Node Js</a
+											></span
+										>
+									</div>
+									<!-- If you prefer video tutorials, we recommend this playlist for the full installation process <br>
+                                    <a href="https://www.youtube.com/playlist?list=PLSzsOkUDsvdtl3Pw48-R8lcK2oYkk40cm">https://www.youtube.com/playlist?list=PLSzsOkUDsvdtl3Pw48-R8lcK2oYkk40cm</a> -->
+
+									<hr />
+								</section>
+
+								<section id="WhereToSetDomainURL">
+									<h4>
+										<li>Where to set API URL (Admin)</li>
+									</h4>
+									<ol>
+										<li>
+											Go to Main Folder -> .env file open it
+											<b
+												>like set your admin panel url like this
+												<code>https://www.example.com</code></b
+											>
+											<img src="../images/web/env.png" alt="Elite Quiz" />
+										</li>
+									</ol>
+
+									<hr />
+								</section>
+
+								<section id="howToRunWebProject">
+									<h4>
+										<li>How to run this project</li>
+									</h4>
+									<ol>
+										<li>
+											Unzip the downloaded code. After unzipping you will have Elite Quiz - Web Code
+											folder.
+											<br />
+											Open it in Visual Studio Code.
+										</li>
+										<li>
+											Open VS Code teminal by typing <b>CTRL+J</b> in Windows/Linux, and for MacOS
+											<b>CMD+J</b> and execute the command --> <b>npm i --force</b>
+											<br />
+											This will take some time to download a few Packages so wait for a few minutes.
+										</li>
+										<li>
+											After <b>npm i --force</b> finishes run this command --> <b>npm run dev</b>.
+											<br />
+											This Command will Start the development mode. Check If everything is working
+											fine then your are good to go ahead.
+										</li>
+									</ol>
+									<hr />
+								</section>
+
+								<section id="howToIntegrateFirebase">
+									<div class="warning_box" style="margin-top: 20px; margin-bottom: 20px">
+										<div class="main_title">
+											<span class="warning_icon"
+												><i class="fas fa-exclamation-triangle"></i> Note</span
+											>
+										</div>
+										<b
+											>If you already have purchased the App version of Elite Quiz and already
+											created firebase project at that time then you can skip 4.1 step</b
+										>
+									</div>
+
+									<h4>
+										<li>How to configure firebase configuration and authorised domain add.</li>
+									</h4>
+									<ol>
+										<li>
+											Create firebase project in your account
+											<img src="../images/web/createFirebase1.jpg" alt="Elite Quiz" /><br />
+											<img src="../images/web/createFirebase2.jpg" alt="Elite Quiz" /><br />
+											<img src="../images/web/createFirebase3.jpg" alt="Elite Quiz" /><br />
+											<img src="../images/web/createFirebase4.jpg" alt="Elite Quiz" /><br />
+										</li>
+										<li>
+											Add web application to your firebase project
+											<img src="../images/web/addWeb.png" alt="Elite Quiz" />
+										</li>
+										<li>
+											Enter the App Name and Click on Register App
+											<img src="../images/web/addWeb2.png" alt="Elite Quiz" /><br />
+										</li>
+										<li>
+											How to configure firebase integration and domain in firebase console.
+											<img src="../images/web/firebase-integration.png" alt="integrate" />
+											<br />
+										</li>
+										<li>
+											Copy this Highlighted Code and paste one by one as per label given in admin
+											panel->web settings->settings
+											<img src="../images/web/addWeb3.png" alt="Elite Quiz" /><br />
+										</li>
+										<li>
+											This credentials should match with the credentials that you have set in admin
+											panel. Otherwise it will not work properly.
+											<img src="../images/web/addWeb4.png" alt="Elite Quiz" /><br />
+										</li>
+										<li>
+											How to configure domain in firebase console
+											<img src="../images/web/firebase-configuration.png" alt="firebase" />
+										</li>
+										<li>
+											You have successfully connected your Web application to your firebase project.
+										</li>
+									</ol>
+									<hr />
+								</section>
+
+								<section id="howToEnableFirebaseAuth">
+									<h4>
+										<li>How to enable firebase auth</li>
+									</h4>
+									<p>
+										<span class="badge badge-primary text-uppercase mr-2">new</span>
+										you can toggle authentication methods from admin panel now. go to
+										<code>Settings -> Authentication Settings</code>
+									</p>
+									<p>
+										Authentication Methods should be enabled in both Panel and the firebase to work
+										properly.
+									</p>
+									<img src="../images/panel/authentication_settings.webp" />
+									<ol>
+										<li>
+											Go to firebase project.Click on authentication menu and goto sign-in method.
+											Enable all the authentication method mention in below image
+											<img src="../images/web/addFirebaseAuth.png" alt="Elite Quiz" />
+										</li>
+										<!-- <li>If your are using google sign-in you need to enable OAuth APIs that you want to
+                                        use using
+                                        https://console.developers.google.com/ .Enable people api and make sure you've
+                                        filled out all required fields in the console for OAuth consent screen.
+                                        Otherwise, you may encounter APIException errors.
+                                    </li> -->
+
+										<li>
+											After that Add your domain name without https:// OR http:// e.g
+											<b>elitequiz.wrteam.in</b>
+											<img src="../images/web/addFirebaseAuth2.png" alt="Elite Quiz" />
+										</li>
+
+										<li>
+											Please add support email as shown in below image. Go to project settings ->
+											general -> public settings
+											<img src="../images/web/auth-2.png" alt="Elite Quiz" />
+										</li>
+
+										<!-- <li>If your are using facebook login go to https://developers.facebook.com/ and
+                                        create project and get your application id and applicaiton secret from there.
+                                        <img src="../images/web/addFbAuth.jpg" alt="Elite Quiz" />
+                                    </li> -->
+									</ol>
+									<hr />
+								</section>
+
+								<section id="howToEnableCloudFirestore">
+									<h4>
+										<li>How to enable cloud firestore</li>
+									</h4>
+									<ol>
+										<li>
+											Follow this steps in order to add cloud firestore
+											<img src="../images/web/addFirestore.jpg" alt="Elite Quiz" /><br />
+											<img src="../images/web/addFirestore2.jpg" alt="Elite Quiz" /><br />
+											<img src="../images/web/addFirestore3.jpg" alt="Elite Quiz" />
+										</li>
+
+										<li>
+											Change security rules of cloud firestore in order to make your web more secure
+											<img src="../images/web/addFirestore4.jpg" alt="Elite Quiz" />
+										</li>
+									</ol>
+									<hr />
+								</section>
+
+								<section id="howToChangeAppName">
+									<h4>
+										<li>How to change Web Application name</li>
+									</h4>
+									<ol>
+										<li>
+											Change application name for your Web application. Go to Admin Panel > Profile
+											and change the value of <b>appName</b>
+											<img src="../images/web/appname.png" alt="Elite Quiz" />
+										</li>
+									</ol>
+									<hr />
+								</section>
+
+								<section id="howToChangeAppLogo">
+									<h4>
+										<li>How to change logo, favicon, Firebase, footer data, quizplay images etc</li>
+									</h4>
+									<ol>
+										<li>
+											Go to Admin Panel -> Web Settings -> Settings.
+											<img src="../images/web/websettings.png" alt="Elite Quiz" />
+										</li>
+										<br />
+										<h4>Seo meta tags</h4>
+
+										<li>
+											Go to .env file
+											<img src="../images/web/meta.png" alt="Elite Quiz" />
+										</li>
+									</ol>
+
+									<ol>
+										<br />
+										<h5>
+											How to change favicon icon Note:-<code
+												>Please set your favicon icon as favicon.ico name and format is only ico
+												set</code
+											>
+											and here its link to convert image to ico
+											<a href="https://www.favicon-generator.org/" target="_blank"
+												>favicon generator</a
+											>
+										</h5>
+
+										<li>
+											Go to public folder -> favicon.ico
+											<img src="../images/web/favicon.png" alt="Elite Quiz" />
+										</li>
+									</ol>
+
+									<hr />
+								</section>
+
+								<section id="howToSetDefaultLanguage">
+									<h4>
+										<li>How to set default language</li>
+									</h4>
+									<ol>
+										<li>
+											By default applicaiton language is English. If you want to change default
+											language go to <code>YOUR_APP_FOLDER > .env file</code> and add your
+											respective language's code shown in below image. Get your language code from
+											here https://developers.google.com/admin-sdk/directory/v1/languages.
+											<br /><code
+												>Make sure your language code is avaialble in
+												https://developers.google.com/admin-sdk/directory/v1/languages.</code
+											>
+											<img src="../images/web/default-language.png" alt="Elite Quiz" />
+										</li>
+										<li>
+											If your default language is not in src/locale/[language-code].json then create
+											new file in same folder with [language-code].json. Add all the labels from
+											en.json and convert label values in your respective language
+											<img src="../images/web/languageFiles.png" alt="Elite Quiz" />
+										</li>
+										<li>
+											copy all the labels form en.json file in your [language-code].json file.
+											<img src="../images/web/languageLabels.png" alt="Elite Quiz" />
+										</li>
+									</ol>
+									<hr />
+								</section>
+
+								<section id="howToAddLanguage">
+									<h4>Manage System Languages (Translations) from Admin Panel</h4>
+									to manage and add translations, you can go to System Languages setting
+									<img src="../images/panel/manage_system_languages.webp" />
+									to make default language you can edit the language. When user opens the app for
+									first time. default language will be selected. then user can select any other
+									language.
+									<img src="../images/panel/edit_system_language.webp" />
+									<hr />
+								</section>
+
+								<section id="manageQuizLanguage">
+									<h4>Manage Quiz Language from Admin Panel</h4>
+									Quiz Language meaning language of the questions, quiz content. not the
+									translations or the labels of the app. if you want to have content in the multiple
+									languages then it will be useful for you.
+									<ol>
+										<li>
+											If you want to have multiple languages for the quiz content, then you can
+											enable language mode in your admin panel as shown in the image below otherwise
+											keep it disabled.
+											<img src="../images/app/admin-language-1.webp" />
+										</li>
+										<li>
+											Then you can Add/Manage quiz languages from Languages Section. or skip this
+											step if language mode is disabled.
+											<img src="../images/panel/manage_quiz_languages.webp" />
+										</li>
+									</ol>
+									<hr />
+								</section>
+
+								<section id="howToChangeAppColors">
+									<h4>
+										<li>How to change application colors</li>
+									</h4>
+									<ol>
+										<li>
+											Add your colors in <code>YOUR_APP_FOLDER -> .env</code> and do not change the
+											color variables name
+											<img src="../images/web/theme-color.png" alt="Elite Quiz" />
+										</li>
+									</ol>
+									<hr />
+								</section>
+
+								<section id="howToChangeAppFont">
+									<h4>
+										<li>How to change application font</li>
+									</h4>
+									<ol>
+										<li>
+											Go to YOUR_APP_FOLDER/public/css/style.css and add your font as shown in image
+											<p>
+												here you get font
+												<a href="https://fonts.google.com/" target="_blank">google font</a>
+											</p>
+											<img src="../images/web/changeFont.png" alt="Elite Quiz" />
+										</li>
+									</ol>
+									<hr />
+								</section>
+
+								<section id="howToAddSlider">
+									<h4>
+										<li>How to Add Slider</li>
+									</h4>
+									<ol>
+										<li>
+											Go to admin panel -> web settings -> slider
+											<img src="../images/web/addslider.png" alt="Elite Quiz" />
+										</li>
+									</ol>
+									<hr />
+								</section>
+
+								<section id="howToAddBadgesImages">
+									<h4>
+										<li>How to Add Badges Images</li>
+									</h4>
+									<ol>
+										<li>
+											Go to admin panel -> Settings -> Badges Settings
+											<img src="../images/web/badges.png" alt="Elite Quiz" />
+										</li>
+									</ol>
+									<hr />
+								</section>
+
+								<section id="howToChangeLtrToRtl">
+									<h4>
+										<li>How to Change LTR to RTL</li>
+									</h4>
+									<ol>
+										<li>
+											Go to Admin Panel -> Web Settings -> Settings
+											<img src="../images/web/ltrtortl.png" alt="Elite Quiz" />
+										</li>
+									</ol>
+									<hr />
+								</section>
+
+								<section id="howToChangeIntroSlideImages">
+									<h4>
+										<li>How set the Domain URL</li>
+									</h4>
+									<ol>
+										<li>
+											Go to .env file
+											<img src="../images/web/domainUrl.png" alt="Elite Quiz" />
+										</li>
+									</ol>
+									<hr />
+								</section>
+
+								<section id="howToChangeSitemap">
+									<h4>
+										<li>How to configure Sitemap</li>
+									</h4>
+									<ol>
+										<li>First set domain web url in .env file</li>
+										<li>Second open terminal and run command :- <code>npm run dev</code></li>
+										<li>
+											Go to public -> sitemap.xml
+											<img src="../images/web/sitemap.png" alt="Elite Quiz" />
+										</li>
+									</ol>
+									<hr />
+								</section>
+
+								<section id="howToGenerateReleaseApk">
+									<h4>
+										<li>How to deploy the Site</li>
+									</h4>
+									<ol>
+										<li>
+											After all the changes you are ready to deploy your Web applicaiton on Live
+											Server.
+										</li>
+										<li>
+											Open VS Code teminal by typing <b>CTRL+J</b> in Windows/Linux, and for MacOS
+											<b>CMD+J</b> and execute the command --> <b>npm run export</b> <br />This will
+											take few seconds to build the live and the optimized version of the web
+											application.
+										</li>
+										<li>
+											After the process completion go to web`s code root files -> out folder and
+											upload this files on your live server.<br />
+											(only upload <b>out </b>folder's files on server do not upload any other file
+											on server)
+										</li>
+										<li>
+											If you are facing any deployment related problems you can follow the official
+											document :
+											<a
+												href="https://nextjs.org/docs/pages/building-your-application/deploying"
+												target="_blank"
+												>Next Js Web Deployment</a
+											>
+										</li>
+									</ol>
+									<hr />
+								</section>
+
+								<section id="howToChangeTimerSeconds">
+									<h4>
+										<li>How to change settings of features like timer, question, On or Off etc</li>
+									</h4>
+									<ol>
+										<li>Go to Admin Panel -> Settings -> System Utilities</li>
+										<br />
+										<img src="../images/web/system-utilites.png" alt="Elite Quiz" />
+									</ol>
+									<hr />
+								</section>
+
+								<section id="howTodisabledhomesection">
+									<h4>
+										<li>How to disable home sections</li>
+									</h4>
+									<ol>
+										<li>Go to Admin Panel -> Web Settings</li>
+										<br />
+										<img src="../images/panel/sections.png" alt="Elite Quiz" />
+									</ol>
+									<hr />
+								</section>
+
+								<section id="howToAddScore">
+									<h4>
+										<li>How to Add Score</li>
+									</h4>
+									<ol>
+										<li>Go to Admin Panel -> Settings -> System Utilities</li>
+										<br />
+										<img src="../images/web/score-add.png" alt="Elite Quiz" />
+									</ol>
+									<hr />
+								</section>
+								<section id="howToAddAdSense">
+									<h4>
+										<li>How to Add Google AdSense</li>
+									</h4>
+									<ol>
+										<li>
+											Go to <a href="https://adsense.google.com">Google AdSense</a> and sigin your
+											account and Add site as per Image
+										</li>
+										<br />
+										<img src="../images/web/adsense.png" alt="Elite Quiz" />
+										<li>click on Let's Go button</li>
+										<img src="../images/web/adsensesite.png" alt="Elite Quiz" />
+										<li>Copy this script code and paste to your src -> pages -> _document.js</li>
+										<img src="../images/web/first_verify.png" alt="Elite Quiz" />
+										<img src="../images/web/scripthtml.png" alt="Elite Quiz" />
+										<li>
+											after script add you need to run command for build folder
+											<b>npm run export</b> and upload to your server. and after click on verify
+											button in google adsense
+
+											<img src="../images/web/verify.png" alt="Elite Quiz" />
+										</li>
+										<li>
+											If it says “Getting ready…,” your account is still under review and your site
+											will not display ads until it has been approved.
+										</li>
+										<img src="../images/web/under_re.png" alt="Elite Quiz" />
+									</ol>
+
+									<hr />
+								</section>
+							</ol>
+						</section>
+						<hr class="divider" />
+
+						<section id="support">
+							<h3>Support</h3>
+							<!-- <p>Yash Rajput for Web Support on
+                            <a href="https://join.skype.com/invite/yleWlTkGyS89" target="_blank" style="color:#3c55d1">Skype</a>
+                        </p> -->
+							<p>
+								Hemal Gondaliya for Admin Panel Support on
+								<a
+									href="https://join.skype.com/invite/soW6Q7dbqAWM"
+									target="_blank"
+									style="color: #3c55d1"
+									>Skype</a
+								>
+							</p>
+							<p>
+								Sumit Mayani for Web Support on
+								<a
+									href="https://join.skype.com/invite/VLAMafsTrK4q"
+									target="_blank"
+									style="color: #3c55d1"
+									>Skype</a
+								>
+							</p>
+							<p>
+								To help our customers, we constantly be in touch with every customer if they need
+								any assistance regarding our product. We offer our customers a support from
+								<strong>
+									Mon – Fri 9.00am to 6.00pm IST (GMT +5.30) – We are a Team located in India –
+									Asia.</strong
+								>
+							</p>
+							<p>
+								Typically we reply our customers for all the questions and queries within 24 hours
+								of time via comments, support forum or emails.
+							</p>
+						</section>
+						<hr class="divider" />
+
+						<section id="rating">
+							<h3>Your Feedback</h3>
+							<p>
+								Dear valuable customer, Thank you very much for choosing our product. It's our
+								pleasure to serve top-notch service to you. Please give us your honest feedback that
+								will help us to make a more strong and reliable product by click here
+								<a
+									href="https://codecanyon.net/item/elite-quiz-trivia-quiz-quiz-game-web-version/reviews/36712217"
+									style="color: #3c55d1"
+									target="_blank"
+									>Rate Us</a
+								>. Thank you very much.
+							</p>
+						</section>
+						<hr class="divider" />
+
+						<section id="contactus">
+							<h3>Contact Us</h3>
+							<p>
+								WRTeam has creative and dedicated group of developers who are mastered in Apps
+								Developments and Web Application Development with a nice in delivering quality
+								solutions to customers across the globe. Contact us today to find out how we can
+								help you or for freelance work.
+							</p>
+							<p>Visit Us : <a href="https://wrteam.in/" target="_blank">https://wrteam.in</a></p>
+							<p>Mail Us : support@wrteam.in</p>
+							<p>Thank you very much.</p>
+						</section>
+						<hr class="divider" />
+
+						<section id="common_errors">
+							<div id="admin_error">
+								<h4>Admin Panel`s Server Issues</h4>
+
+								<p>Issue 1</p>
+								<ol>
+									<img src="../images/error/ob_start()1.png" alt="Elite Quiz" />
+								</ol>
+								<ol>
+									<img src="../images/error/ob_start()2.png" alt="Elite Quiz" />
+								</ol>
+								<h4>Solution</h4>
+								<ol>
+									<li>
+										Go to Admin panel's code root files -&gt; index.php and write:
+										<code>ob_start();</code> in new line after <code>&lt;?php</code>
+									</li>
+									<br />
+									<img src="../images/error/ob_start.png" alt="Elite Quiz" />
+								</ol>
+
+								<hr />
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+			<!-- Content end -->
+		</div>
+		<!-- Document Wrapper end -->
+
+		<!-- Back To Top -->
+		<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"
+			><i class="fa fa-chevron-up"></i
+		></a>
+
+		<!-- JavaScript
+        ============================ -->
+		<script src="../assets/vendor/jquery/jquery.min.js"></script>
+		<script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<!-- Easing -->
+		<script src="../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+		<!-- Custom Script -->
+		<script src="../assets/js/theme.js"></script>
+	</body>
+</html>

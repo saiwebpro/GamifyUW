@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no" />
+		<link href="../images/favicon.ico" rel="icon" />
+		<title>Documentation | Elite Quiz</title>
+
+		<!-- Bootstrap -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="../assets/vendor/bootstrap/css/bootstrap.min.css" />
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" />
+		<!-- Custom Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/stylesheet.css" />
+	</head>
+
+	<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+		<!-- Document Wrapper
+        =============================== -->
+		<div id="main-wrapper">
+			<!-- Header
+            ============================ -->
+			<header id="header" class="sticky-top">
+				<!-- Navbar -->
+				<nav class="primary-menu navbar navbar-expand-lg bg-dark navbar-dropdown-dark">
+					<div class="container-fluid">
+						<!-- Sidebar Toggler -->
+						<button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button">
+							<span></span><span class="w-75"></span><span></span>
+						</button>
+						<!-- Logo -->
+						<img src="../images/logo.svg" width="200" alt="logo" />
+						<!-- Logo End -->
+					</div>
+				</nav>
+				<!-- Navbar End -->
+			</header>
+			<!-- Header End -->
+
+			<!-- Content
+            ============================ -->
+			<div id="content" role="main">
+				<!-- Sidebar Navigation
+                ============================ -->
+				<div class="idocs-navigation bg-dark docs-navigation-dark">
+					<ul class="nav flex-column">
+						<li class="nav-item">
+							<a href="#introduction" class="nav-link active">Introduction</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="#admin_panel">Elite Quiz Admin Panel</a>
+							<ul class="nav flex-column">
+								<li class="nav-item">
+									<a class="nav-link" href="#installation">Configure on your server</a>
+								</li>
+								<!-- <li class="nav-item"><a class="nav-link" href="#notification-management">Notification Management</a></li> -->
+								<li class="nav-item">
+									<a class="nav-link" href="#system-configurations">Set System Configurations</a>
+								</li>
+								<li class="nav-item"><a class="nav-link" href="#pp">Set Privacy Policy</a></li>
+								<li class="nav-item"><a class="nav-link" href="#tc">Set Terms Conditions</a></li>
+								<li class="nav-item"><a class="nav-link" href="#about_us">Set About Us</a></li>
+								<li class="nav-item">
+									<a class="nav-link" href="#instructions">Set Instructions</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="nav-item"><a href="#support" class="nav-link">Support</a></li>
+						<li class="nav-item"><a href="#rating" class="nav-link">Your Feedback</a></li>
+						<li class="nav-item"><a href="#contactus" class="nav-link">Contact Us</a></li>
+						<li class="nav-item">
+							<a class="nav-link" href="#common_errors">Common Error</a>
+							<ul class="nav flex-column">
+								<li class="nav-item"><a class="nav-link" href="#admin_error">Admin Panel</a></li>
+								<!-- <li class="nav-item"><a class="nav-link" href="#web_error">Web Issue</a></li> -->
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Docs Content  -->
+				<div class="idocs-content">
+					<div class="container">
+						<!-- Getting Started -->
+						<section id="introduction">
+							<h3>
+								Note:- The web-based payment gateway is currently unavailable for security reasons
+								or due to the Google In-App purchase system. However, you can purchase coins
+								directly from the app, and these purchases will also be reflected on the web
+								platform.
+							</h3>
+							<h3>Introduction</h3>
+							<p class="">
+								Thank you for purchasing code. It really means a lot and It's our pleasure to serve
+								top-notch service to you. Thank you so much for choosing<a
+									href="https://wrteam.in/"
+									style="color: #3c55d1"
+									target="_blank">
+									WRTeam </a
+								>. If you have trouble with the code and documentation please contact to our Support
+								Team <a href="#support" style="color: #3c55d1">Here</a>
+							</p>
+							<p>
+								Refer to this
+								<a
+									href="https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code"
+									>link</a
+								>
+								to find where to get your Purchase Code.
+							</p>
+						</section>
+
+						<section id="admin_panel">
+							<h3>Elite Quiz Admin Panel</h3>
+
+							<section id="installation">
+								<h4>Installing Admin Panel on Shared Hosting</h4>
+								<ol>
+									<li>Create your domain or subdomain in shared hosting.</li>
+									<li>
+										Set up an empty database in your shared hosting and keep track of these
+										credentials: <br /><span>i. Database name</span> <br /><span
+											>ii. Database username</span
+										>
+										<br /><span>iii. Database password</span>
+									</li>
+									<span class="badge badge-danger text-uppercase mr-2">Note</span
+									>Avoid using hyphens(-) in the
+									<strong>Database Name</strong
+									>, as it doesn't work in some configurations.<br />
+									<li>
+										Uploading the source code to Server <br /><span
+											>i. Begin by extracting the Source Code you acquired from CodeCanyon.</span
+										>
+										<br /><span
+											>ii. Unpack the Admin Panel zip file and proceed to upload the PHP Code
+											Folder's contents onto your Server.</span
+										>
+										<br />
+										<br />
+										<span class="badge badge-danger text-uppercase mr-2">Note</span>
+										.htaccess file is essential; kindly verify its existence. If it is not visible,
+										enable the option to display hidden files.
+										<br />
+										<span class="badge badge-danger text-uppercase mr-2">Note</span>
+										Supported PHP version should be greater than or equal to 8.1
+										<br />
+									</li>
+									<li>
+										Now head to your project's URL (e.g., mydomain.com or
+										subdomain.mydomain.com).<br />
+										The Installation screen will then walk you through the process seamlessly.
+									</li>
+								</ol>
+								<p>
+									Great news! You're all set to start your Elite Quiz experience at:
+									<a href="https://elitequiz.wrteam.me">https://elitequiz.wrteam.me</a>
+								</p>
+								<strong>Default Login Details</strong><br />
+								User: admin<br />
+								Pass: admin123<br />
+								<br />
+								<hr />
+							</section>
+
+							<!-- <section id="notification-management">
+                            <h4>Notification Management</h4>
+                            <p>First Of all,we need to set the FCM server key from <a href="https://console.firebase.google.com" target="_blank">Firebase console</a></p>
+                            <img src="images/panel/notification-setting.png"/>
+                            <hr>
+                        </section> -->
+
+							<section id="system-configurations">
+								<h4>Set System Configurations</h4>
+								<p>Change Quiz name and logo in Profile menu</p>
+								<img
+									src="../images/panel/profile.webp"
+									alt="System Configurations"
+									title="System Configurations" />
+
+								<p>
+									From here you can set System & App Timezone, App Play store or market place Link,
+									Enable / Disable Answer Display, Language Mode, Option E Mode, Force Update App,
+									Daily Quiz Mode, Contest Mode, Battle Random Category Mode, Battle Group Category
+									Mode & In App Purchase. Manage App Version and Update Shareapp Text. Set fix
+									Question in level
+								</p>
+								<img
+									src="../images/app/system-configurations.webp"
+									alt="System Configurations"
+									title="System Configurations" />
+								<ul>
+									<li>
+										<strong>System Timezone:</strong> This option sets the time zone of the admin
+										panel.
+									</li>
+									<li>
+										<strong>App Links:</strong> You can set your apps play store/app store links in
+										here, when user refers the app this links will be used.
+									</li>
+									<li>
+										<strong>Refer Coins:</strong> Amount of coins your referral gets for using your
+										referral code.
+									</li>
+									<li><strong>Earn Coins:</strong> Amount of coins user gets for referring.</li>
+									<li>
+										<strong>Force Update:</strong> if you want to require users to update the app to
+										latest version. you can enable force update and add the
+										<strong>Android/IOS App Version</strong> if app has given version it will show
+										force update dialog to those users.
+									</li>
+									<li>
+										<strong>True/False Values:</strong> When Creating True False Question these
+										values will be added as default values, then you can also edit them.
+									</li>
+									<li><strong>Share App Text:</strong> sharing the app will share this text.</li>
+									<li>
+										<strong>App Maintenance:</strong> When you are working on the admin panel or
+										apps Maintenance, you can enable this option so it will show users that app is
+										in Maintenance Mode.
+									</li>
+									<li>
+										<strong>Language Mode:</strong> If you want to only use one language in the app
+										you can disable this option. if you want to add multiple languages enable this
+										feature.
+									</li>
+									<li>
+										<strong>Option E:</strong> If you want 5 options for the answer you can enable
+										this option. otherwise there will be 4 options to select from for answer.
+									</li>
+									<li>
+										<strong>Daily Quiz/Contest Mode:</strong>Toggle Daily Quiz/Contest feature
+										functionality
+									</li>
+									<li>
+										<strong>In App Purchase:</strong> This option controls 'Coin Store'
+										functionality in the app. if you disable this feature user won't be able to
+										purchase coins.
+									</li>
+								</ul>
+
+								<h5>Additionally, you can change quiz specific settings from System Utilities</h5>
+								<img src="../images/app/system_utilities_1.webp" />
+								<ul>
+									<li>
+										<strong>Visible Mode:</strong> Controls visibility of the feature. if you want
+										to disable any particular quiz you can disable this option for that quiz.
+									</li>
+									<li>
+										<strong>Fix Questions:</strong> if disabled all the questions of
+										category/subcategory or level will be fetched for user to play. otherwise you
+										can limit the no of question randomly fetched from many.
+									</li>
+									<li><strong>Duration:</strong> Adjust Quiz Duration for quiz</li>
+									<li>
+										<strong>Correct Answer Credit Score: </strong> For each correct answer this
+										amount of score is given
+									</li>
+									<li>
+										<strong>Wrong Answer Deduct Score:</strong> for each wrong answer this amount of
+										score is deducted.
+									</li>
+								</ul>
+								<img src="../images/app/system_utilities_2.webp" />
+								<ul>
+									<li>
+										<strong>Extra Scores: </strong> given in battles, when user answers correctly
+										and quickly, if user correctly answers in 2 seconds they get extra score from
+										quickest answer score, and if they answer in 4 seconds they get extra score from
+										second quickest answer score.
+									</li>
+									<li>
+										<strong>Opponent Search Duration:</strong> For Random Battle, it will search for
+										opponent for this duration.
+									</li>
+								</ul>
+								<hr />
+							</section>
+
+							<section id="pp">
+								<h4>Set Privacy Policy</h4>
+								<p>Set Privacy Policy for your website and app.</p>
+								<img src="../images/panel/pp.png" />
+								<hr />
+							</section>
+
+							<section id="tc">
+								<h4>Set Terms Conditions</h4>
+								<p>Set Terms Conditions for your website and app.</p>
+								<img src="../images/panel/tc.png" />
+								<hr />
+							</section>
+
+							<section id="about_us">
+								<h4>About Us Content</h4>
+								<p>Set and manage your about us content for app.</p>
+								<img src="../images/panel/about-us.png" />
+								<hr />
+							</section>
+
+							<section id="instructions">
+								<h4>How to Play Content</h4>
+								<p>Set and manage your how to play content for app.</p>
+								<img src="../images/panel/instructions.png" />
+								<hr />
+							</section>
+						</section>
+
+						<hr class="divider" />
+
+						<section id="support">
+							<h3>Support</h3>
+							<p>
+								Hemal Gondaliya for Admin Panel Support on
+								<a
+									href="https://join.skype.com/invite/soW6Q7dbqAWM"
+									target="_blank"
+									style="color: #3c55d1"
+									>Skype</a
+								>
+							</p>
+							<p>
+								To help our customers, we constantly be in touch with every customer if they need
+								any assistance regarding our product. We offer our customers a support from
+								<strong>
+									Mon – Fri 9.00am to 6.00pm IST (GMT +5.30) – We are a Team located in India –
+									Asia.</strong
+								>
+							</p>
+							<p>
+								Typically we reply our customers for all the questions and queries within 24 hours
+								of time via comments, support forum or emails.
+							</p>
+						</section>
+						<hr class="divider" />
+
+						<section id="rating">
+							<h3>Your Feedback</h3>
+							<p>
+								Dear valuable customer, Thank you very much for choosing our product. It's our
+								pleasure to serve top-notch service to you. Please give us your honest feedback that
+								will help us to make a more strong and reliable product by click here
+								<a
+									href="https://codecanyon.net/item/elite-quiz-trivia-quiz-quiz-game-web-version/reviews/36712217"
+									style="color: #3c55d1"
+									target="_blank"
+									>Rate Us</a
+								>. Thank you very much.
+							</p>
+						</section>
+						<hr class="divider" />
+
+						<section id="contactus">
+							<h3>Contact Us</h3>
+							<p>
+								WRTeam has creative and dedicated group of developers who are mastered in Apps
+								Developments and Web Application Development with a nice in delivering quality
+								solutions to customers across the globe. Contact us today to find out how we can
+								help you or for freelance work.
+							</p>
+							<p>Visit Us : <a href="https://wrteam.in/" target="_blank">https://wrteam.in</a></p>
+							<p>Mail Us : support@wrteam.in</p>
+							<p>Thank you very much.</p>
+						</section>
+						<hr class="divider" />
+
+						<section id="common_errors">
+							<div id="admin_error">
+								<h4>Admin Panel`s Server Issues</h4>
+
+								<p>Issue 1</p>
+								<ol>
+									<img src="../images/error/ob_start()1.png" alt="Elite Quiz" />
+								</ol>
+								<ol>
+									<img src="../images/error/ob_start()2.png" alt="Elite Quiz" />
+								</ol>
+								<h4>Solution</h4>
+								<ol>
+									<li>
+										Go to Admin panel's code root files -&gt; index.php and write:
+										<code>ob_start();</code> in new line after <code>&lt;?php</code>
+									</li>
+									<br />
+									<img src="../images/error/ob_start.png" alt="Elite Quiz" />
+								</ol>
+
+								<hr />
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+			<!-- Content end -->
+		</div>
+		<!-- Document Wrapper end -->
+
+		<!-- Back To Top -->
+		<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"
+			><i class="fa fa-chevron-up"></i
+		></a>
+
+		<!-- JavaScript
+        ============================ -->
+		<script src="../assets/vendor/jquery/jquery.min.js"></script>
+		<script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<!-- Easing -->
+		<script src="../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+		<!-- Custom Script -->
+		<script src="../assets/js/theme.js"></script>
+	</body>
+</html>

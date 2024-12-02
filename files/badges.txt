@@ -1,0 +1,52 @@
+Badges:
+
+01) Dashing Debut - first public appearance
+	Condition : Play quizZone first time
+
+02) COMBAT WINNER - WON BATTLE -
+	Condition : Won one battle(1 vs 1). Winner must be declared by completing the battle.
+
+03) CLASH WINNER- won group battle
+	Condition : Won one group battle. Winner must be declared by completing the battle.
+
+04) Most Wanted Winner - Won Contest
+	Condition : Won one contest
+
+05) Ultimate Player- Highest point Gainer -
+	Condition : If user get highest point in battle(1 vs 1). Winner must be declared by completing the battle.
+
+		    Equation for determining point
+		    - If user submit the answer with in 1 or 2 seconds will earn some(5) extra points + default Points (for correct answer)
+   		    - If user submit the answer with in 3 or 4 seconds will earn some(3) extra points + default Points (for correct answer)
+   		    - If user submit the answer after 5 seconds will earn default points (for a correct answer) 
+
+06) QUIZ WARRIOR
+	Condition - Won BACK TO BACK 3 BATTLE
+		  - Winner must be declared by completing the battle.
+
+07) SuperSonic-Fastest Puzzle solver
+	Condition : Average time to solve one guess the word quiz question (25 seconds). Need minimum 5 questions to unlock
+
+08) Flashback-Average
+	Condition : Time to solve one fun & learn  quiz question(8 seconds). Need minimum 5 questions to unlock
+
+09) BRAINIAC
+	Condition - completed 100% quiz without using life line. Need minimum 5 questions to unlock
+
+10) That Big Thing
+	Condition - 5000 Correct answer
+
+11) ELITE
+	Condition - 5k coins in wallet
+
+12) Thirsty
+	Condition - 30 days daily quiz play
+
+13) Power Elite
+	Condition- Achieved more than 10 badges
+
+14) Sharing is caring
+	Condition - Share app to more than 50 person
+
+15) Streak
+	Condition - Maintain streak for 30 days
